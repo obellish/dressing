@@ -2,5 +2,6 @@ lints.workspace = true
 
 [package]
 edition.workspace = true
+license.workspace = true
 name = "dressing-core"
 version.workspace = true

@@ -32,6 +32,10 @@ unimplemented = "deny"
 unsafe_derive_deserialize = "allow"
 used_underscore_binding = "allow"
 
+[workspace.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
 [workspace.package]
 edition = "2021"
 license = "MIT or Apache-2.0"
