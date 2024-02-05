@@ -1,0 +1,6 @@
+lints.workspace = true
+
+[package]
+edition.workspace = true
+name = "dressing-core"
+version.workspace = true

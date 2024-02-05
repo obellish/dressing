@@ -1,0 +1,9 @@
+[all]
+all-features = true
+exclude-files = ["target/*"]
+ignore-tests = true
+out = ["Html", "Xml"]
+output-dir = "./target/tarpaulin-report"
+skip-clean = true
+target-dir = "./target/tarpaulin-output"
+workspace = true
